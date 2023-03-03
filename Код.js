@@ -24,12 +24,12 @@ function sendBuh() {
     }
 
     // отправляем почту
-    MailApp.sendEmail("friedmanukraine@gmail.com", "Выписки Монобанк", "", {
-      name: 'Виталий Мельник (Фридман-Украина)',
+    MailApp.sendEmail("friedmanukraine@gmail.com", "Виписки Монобанк", "", {
+      name: 'Виталий Мельник (Фрідман-Україна)',
       attachments: spreadsheetFileArr
     })
-    MailApp.sendEmail("vat.friedman@gmail.com", "Выписки Монобанк", "", {
-      name: 'Виталий Мельник (Фридман-Украина)',
+    MailApp.sendEmail("vat.friedman@gmail.com", "Виписки Монобанк", "", {
+      name: 'Виталий Мельник (Фрідман-Україна)',
       attachments: spreadsheetFileArr
     })
   } else {
